@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    /* border: 1px solid rgb(0, 0, 0); */
+}
+body {
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    /* background-image: ; */
+        background: url(./background.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
+
+header{
+    display: flex;
+    position: relative;
+    top: 0px;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 10px;
+    border-bottom: 1px solid #a2a2a2;
+    border-radius: 10px;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    width: 50%;
+}
+li{
+    list-style: none;
+    display: inline;
+    margin:0 10px;
+}
+main{
+    line-height: 1;
+    padding: 20px 30px;
+}
+main h2{
+    font-family: "Proza Libre", sans-serif;
+}
