@@ -1,18 +1,17 @@
 *{
     box-sizing: border-box;
-    /* border: 1px solid rgb(0, 0, 0); */
 }
 body {
 	font-family: 'Montserrat', sans-serif;
 	line-height: 1.5;
-    margin: 0;
+    margin: 1vh 10vw;
     padding: 0;
-    /* background-image: ; */
-        background: url(./background.jpg) no-repeat center center fixed;
+        /* background: url(./background.jpg) no-repeat center center fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
-        background-size: cover;
+        background-size: cover; */
+    background-color: #d8d8d8;
 }
 
 header{
@@ -38,9 +37,42 @@ li{
     margin:0 10px;
 }
 main{
-    line-height: 1;
-    padding: 20px 30px;
+    line-height: 0.8;
 }
 main h2{
     font-family: "Proza Libre", sans-serif;
+    
+}
+main h3{
+    display: inline-block;
+}
+main h3:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+#projects{
+    line-height: 0.3;
+}
+#projects p {
+    visibility: hidden;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    text-align:center;
+    
+}
+p{
+    font-size: 1.1rem;
+}
+#contact{
+    position: relative;
+    top:2rem;
+    left: 1rem;
+    display:block;
+    line-height: 1.3;
+}
+#contact input{
+    display:block;
 }
